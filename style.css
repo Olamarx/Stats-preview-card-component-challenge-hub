@@ -1,0 +1,141 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.attribution {
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container{
+    background-color: hsl(233, 47%, 7%);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.sub-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+
+.left-container{
+    height: 330px;
+    border-radius: 10px 0 0 10px;
+    width: 450px;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.right-container{
+/* background: url(./images/image-header-desktop.jpg) 0 0 no-repeat; */
+
+
+    height: 330px;
+    width: 450px;
+    opacity: 0.5;
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 0 10px 10px 0;
+
+position: relative;
+top: 0;
+left: 0;
+}
+
+.image{
+    background-color:hsl(277, 64%, 61%);
+    opacity: 0.5;
+    height: 330px;
+    width: 450px;
+    border-radius: 0 10px 10px 0;
+    /* transition: 3s; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right-container img{
+    height: 330px;
+    width: 450px;
+    border-radius: 0 10px 10px 0;
+    background-color: hsl(277, 64%, 61%);
+}
+
+
+.left-content-h1{
+    padding: 40px 90px 25px 50px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.left-content-h1-span{
+    color: hsl(277, 64%, 61%);
+}
+
+.left-content-paragraph{
+    padding: 0 110px 40px 50px;
+    justify-content: end;
+    color: hsla(0, 0%, 100%, 0.75);
+    opacity: 0.5;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.main-body-of-last{
+    /* background-color: green; */
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-around;
+    margin: 0 110px 0 50px;
+}
+
+.p-tag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    opacity: 0.5;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .sub-container{
+        display: block;
+        flex-direction: row-reverse;
+    }
+
+    .upper-image-for-mobile img{
+        visibility: visible;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
